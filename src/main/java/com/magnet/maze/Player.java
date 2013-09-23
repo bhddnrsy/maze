@@ -22,7 +22,6 @@ public class Player {
 		
 		ImageIcon img = new ImageIcon(Maze.class.getResource("/images/dot16.png"));
 		player = img.getImage();
-		
 		//Start position of user.
 		tileX = 1;
 		tileY = 0;
@@ -49,7 +48,5 @@ public class Player {
 		//Move the player on tile up,down,right or left.
 		tileX += dx;
 		tileY += dy;
-		
 	}
-	
 }

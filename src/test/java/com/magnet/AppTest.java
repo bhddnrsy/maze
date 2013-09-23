@@ -5,6 +5,14 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
+ * Created with IntelliJ IDEA.
+ * User: barisoy
+ * Date: 23.09.2013
+ * Time: 13:24
+ * To change this template use File | Settings | File Templates.
+ */
+
+/**
  * Unit test for simple App.
  */
 public class AppTest 

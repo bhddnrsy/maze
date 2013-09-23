@@ -38,10 +38,8 @@ public class Maze implements ActionListener {
 		
 		//Used a new window icon.
 		icon = new ImageIcon(Maze.class.getResource("/images/MazeIcon.jpg"));
-		
 		//sec variable will be incremented every one second.
 		sec = 0;
-		
 		//Created labels and Board panel.
 		lbl1 = new JLabel("Press \"R\" to change the maze path.");
 		lbl2 = new JLabel(" " + sec/60 + " min. " + sec%60 + " sec. ");
